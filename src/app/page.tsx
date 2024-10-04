@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Selector from "./components/selector/Selector";
 import AllSections from "./components/sections/AllSections";
 

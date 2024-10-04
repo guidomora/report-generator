@@ -1,7 +1,4 @@
 import Image from "next/image"
-import Allianz from '../../../../public/allianz-1.svg'
-import TodoModa from '../../../../public/todoModa.jpg'
-import Facility from '../../../../public/facility.png'
 
 interface OptionsSelector {
     text: string;
