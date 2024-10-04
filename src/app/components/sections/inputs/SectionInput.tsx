@@ -11,6 +11,10 @@ const SectionInput = () => {
                 <span className="underline">Seleccione las imágenes</span>
                 <input type='file' multiple placeholder='imágenes' className='mt-2' />
             </div>
+            <div className='flex flex-col'>
+                <span className="">Detalle (opcional)</span>
+                <textarea placeholder='Detalle' className='mt-2 border border-gray-300 focus:border-blue-500 focus:outline-none rounded-md' />
+            </div>
             <hr className='mt-8' />
         </div>
     )
