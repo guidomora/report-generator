@@ -5,7 +5,7 @@ import SectionInput from "./SectionInput";
 import { IoTrashOutline } from "react-icons/io5";
 
 const AddSections = () => {
-    // Estado que manejará la cantidad de secciones
+    // Cantidad de secciones
     const [sections, setSections] = useState<number[]>([0]);
 
     // Función para agregar una nueva sección
